@@ -46,6 +46,12 @@
 			<scope>runtime</scope>
 		</dependency>
 		
+		<!-- Migracoes - Flyway -->
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+		</dependency>
+		
 		<!-- Lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
