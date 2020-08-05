@@ -8,6 +8,21 @@
 		{
 			"name": "Criar produto",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "h0tm@rt",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "hotmart",
+							"type": "string"
+						}
+					]
+				},
 				"method": "POST",
 				"header": [],
 				"body": {
@@ -37,6 +52,21 @@
 		{
 			"name": "Atualizar produto",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "h0tm@rt",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "hotmart",
+							"type": "string"
+						}
+					]
+				},
 				"method": "PUT",
 				"header": [],
 				"body": {
@@ -68,6 +98,21 @@
 		{
 			"name": "Excluir produto",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "h0tm@rt",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "hotmart",
+							"type": "string"
+						}
+					]
+				},
 				"method": "DELETE",
 				"header": [],
 				"url": {
@@ -90,6 +135,21 @@
 		{
 			"name": "Ranquear produtos",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "h0tm@rt",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "hotmart",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
