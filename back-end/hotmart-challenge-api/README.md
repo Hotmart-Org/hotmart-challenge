@@ -104,6 +104,8 @@ Usuário: hotmart
 Senha: h0tm@rt
 ```
 
+O arquivo `Hotmart_Challenge.postman_collection.json` com os requests da api está localizado na raiz do projeto e pode ser importado no Postman.
+
 * GET
 ```
 Listar produtos: /api/v1/produtos/?{page}&{size}
