@@ -12,12 +12,15 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import org.hibernate.envers.Audited;
+
 import com.hotmart.challenge.domain.model.base.GenericBaseModel;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+@Audited
 @Data
 @EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor

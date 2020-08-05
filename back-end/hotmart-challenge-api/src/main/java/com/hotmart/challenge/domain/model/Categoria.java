@@ -7,12 +7,15 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.Size;
 
+import org.hibernate.envers.Audited;
+
 import com.hotmart.challenge.domain.model.base.GenericBaseModel;
 import com.sun.istack.NotNull;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+@Audited
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Entity
